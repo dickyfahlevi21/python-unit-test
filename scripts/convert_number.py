@@ -18,3 +18,5 @@ def number_to_string(n):
     elif n < 100:
         result = number_to_string (number / 10) + " Puluh " + number_to_string (number % 10)
     return result
+
+# reference from : https://www.infoteknikindustri.com/2020/05/script-utuh-program-terbilang-python.html
